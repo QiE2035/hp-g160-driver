@@ -16,5 +16,5 @@ A simple driver for **HP G160 GAMING MOUSE** implemented using `Python`, `pyusb`
 
 - [ ] Implement mouse macros.
 - [ ] Provide key code table.
-- [ ] Increase configuration file storage.
+- [ ] Add configuration file storage.
 - [ ] Dynamically sniff mouse state.
