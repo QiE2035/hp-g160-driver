@@ -1,0 +1,6 @@
+{
+    "qtForPython.uic.args": [
+        "-o \"${workspaceFolder}${pathSeparator}${fileBasenameNoExtension}.py\""
+      ],
+      "qtForPython.designer.path": "/bin/designer"
+}
