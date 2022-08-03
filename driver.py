@@ -36,7 +36,7 @@ class Driver:
         self.__dev = dev
 
     def __send_command(self, command):
-        print([hex(i) for i in command])
+        # print([hex(i) for i in command])
         self.__dev.ctrl_transfer(
             0x21, 0x9, 0x307, 0x1,
             [0x7] + command + [0x0] * 3)

@@ -169,7 +169,7 @@ class Ui_MainWindow(object):
         self.main_layout.addLayout(self.button_layout)
 
         self.retranslateUi(MainWindow)
-        self.breath_combo.setCurrentIndex(0)
+        self.breath_combo.setCurrentIndex(3)
         self.cancel_button.clicked.connect(MainWindow.close) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
